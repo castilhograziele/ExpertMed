@@ -1,0 +1,587 @@
+/* FONTS */
+@import url(../css/clash-display.css);
+
+/* VARIABLES */
+:root {
+    --c-dark: #212529;
+    --c-brand: #466B66;
+    --c-brand-light: #6970dd;
+    --c-brand-rgb: 70, 107, 102;
+    --c-body: #727272;
+    --font-base: "ClashDisplay", sans-serif;
+    --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
+    --transition: all 0.5s ease;
+}
+
+/* RESET & HELPERS */
+body {
+    font-family: var(--font-base);
+    line-height: 1.7;
+    color: var(--c-body);
+}
+
+h1, h2, h3,h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 600;
+    color: var(--c-dark);
+}
+
+a {
+    text-decoration: none;
+    color: var(--c-brand);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--c-brand-light);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.theme-shadow {
+    box-shadow: var(--box-shadow);
+}
+
+/* IMAGE ZOOM */
+.image-zoom {
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.image-zoom-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.image-zoom-wrapper img{
+     transition: var(--transition);
+}
+
+.image-zoom:hover .image-zoom-wrapper img {
+    transform: scale(1.1);
+}
+
+
+/* NAVBAR */
+.navbar {
+    box-shadow: var(--box-shadow);
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: var(--c-dark);
+}
+
+.navbar-nav .nav-link.active {
+    color: #6DB6B2;
+}
+
+.navbar-logo {
+    max-width: 200px;  /* Ajuste a largura conforme necessário */
+    height: auto;
+}
+
+
+
+/* BTN */
+.btn {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 24px;
+}
+
+.btn-brand {
+    background-color: var(--c-brand);
+    border-color: var(--c-brand);
+    color: white;
+}
+
+.btn-brand:hover {
+    background-color: var(--c-brand-light);
+    border-color: var(--c-brand-light);
+    color: white;
+}
+
+
+/* HERO */
+#hero {
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../images/back-5.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* SECTION TITLE */
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title .line {
+    width: 60px;
+    height: 4px;
+    background-color: var(--c-brand);
+    margin: 16px auto 24px auto;
+}
+
+.section-title p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ICONBOX */
+.iconbox {
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--c-brand);
+    font-size: 34px;
+    flex: none;
+    position: relative; /* Para permitir o posicionamento absoluto da imagem */
+}
+
+/* Ajuste na imagem */
+.iconbox img {
+    transition: transform 0.3s ease; /* Animação para o efeito de expansão */
+    width: 190%; /* Largura da imagem ajustada */
+    height: 190%; /* Altura da imagem ajustada */
+    object-fit: cover; /* Cobre todo o espaço da iconbox */
+}
+
+/* SERVICE */
+.service {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.service::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: rgba(var(--c-brand-rgb), 0.2);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: var(--transition);
+}
+
+.service:hover::after {
+    width: 100%;
+    height: 100%;
+    background: var(--c-brand);
+    z-index: 1; /* Fundo verde fica atrás da imagem e do texto */
+}
+
+.service:hover h5 {
+    color: white;
+    z-index: 4; /* Coloca o texto acima de tudo */
+    position: relative; /* Necessário para aplicar o z-index no texto */
+    transform: translateY(80px); /* Move o h5 para baixo */
+}
+
+.service:hover p {
+    opacity: 0; /* Faz o parágrafo desaparecer */
+    transition: opacity 0.3s ease; /* Animação suave para desaparecer */
+    z-index: 4; /* Garante que o parágrafo fique acima do fundo verde */
+}
+
+/* Expansão da imagem para toda a div */
+.service:hover .iconbox img {
+    transform: scale(3) translateY(15%); /* Aumenta o tamanho da imagem e a move para baixo */
+    position: absolute; /* Faz a imagem ocupar o espaço completo da div */
+    top: 0; /* Posiciona a imagem na parte superior */
+    left: 0; /* Posiciona a imagem na parte esquerda */
+    width: 100%; /* A largura da imagem será 100% da div */
+    height: 100%; /* A altura da imagem será 100% da div */
+    z-index: 3; /* Coloca a imagem acima do fundo verde */
+}
+
+
+/* COUNTER */
+#counter-encomenda {
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(../images/encomenda.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-padding-encomenda {
+    padding-top: 30px; /* Reduzido */
+    padding-bottom: 30px; /* Reduzido */
+}
+
+
+
+/* COUNTER */
+#counter {
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(../images/counter.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* PORTFOLIO */
+.portfolio-item .iconbox {
+    background-color: var(--c-brand);
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.portfolio-item:hover .iconbox {
+    opacity: 1;
+    top: 50%;
+}
+
+/* REVIEW */
+.review small {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--c-brand);
+}
+
+.review-head {
+    position: relative;
+}
+
+.review-head::after {
+    content: "";
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    bottom: -14px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+/* TEAM */
+.team-member-content {
+    background-color: var(--c-brand);
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    width: calc(100% - 50px);
+    transform: translateX(-50%);
+    padding: 24px;
+    transition: var(--transition);
+    opacity: 0;
+}
+
+.team-member:hover .team-member-content {
+    opacity: 1;
+    bottom: 24px;
+}
+
+/* CONTACT */
+#contact {
+    position: relative;
+    z-index: 2;
+}
+
+#contact::after {
+    content: "";
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(../images/counter.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#contact .form-control {
+    border-radius: 0;
+}
+
+#contact .form-control:focus {
+    box-shadow: none;
+    border-color: var(--c-brand);
+}
+
+/* FOOTER */
+footer {
+    padding-top: 120px;
+}
+
+.footer-top {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-bottom {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+footer li,
+footer p,
+footer a {
+    color: rgba(255,255,255,0.7);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .line {
+    width: 40px;
+    height: 4px;
+    background-color: var(--c-brand);
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 100px;
+}
+
+.social-icons a:hover {
+    background-color: var(--c-brand);
+    color: white;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f2f2f2;
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:hover .logos-slide {
+    animation-play-state: paused;
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    animation: 10s slide infinite linear;
+  }
+  
+  .logos-slide img {
+    height: 50px;
+    margin: 0 40px;
+  }
+
+
+  .whatsapp-icon,
+  .shopee-icon {
+      position: fixed;
+      bottom: 20px; /* Espaço inicial do canto inferior */
+      right: 20px; /* Alinhado ao canto inferior direito */
+      width: 200px;
+      height: 200px;
+      z-index: 1000;
+      cursor: pointer;
+      transition: transform 0.3s ease, opacity 0.3s ease; /* Efeito ao passar o mouse */
+  }
+  
+  /* Ajuste do espaçamento para aproximação */
+  .whatsapp-icon {
+      bottom: -20px; /* Ícone mais próximo do canto inferior */
+  }
+  
+  .shopee-icon {
+      bottom: -80px; /* Ajuste para posicionar acima do WhatsApp */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+      .whatsapp-icon,
+      .shopee-icon {
+          width: 150px; /* Reduzido para tamanhos menores */
+          height: 150px;
+          right: 10px; /* Ajustado para dispositivos menores */
+      }
+  
+      .whatsapp-icon {
+          bottom: -10px; /* Proximidade ajustada */
+      }
+  
+      .shopee-icon {
+          bottom: -70px; /* Mantém espaço entre os ícones */
+      }
+  }
+  
+  /* Efeito ao passar o mouse */
+  .whatsapp-icon:hover,
+  .shopee-icon:hover {
+      transform: scale(1.2); /* Aumenta levemente o tamanho */
+      opacity: 0.8; /* Reduz a opacidade para dar destaque */
+  }
+  
+
+
+.multiple-card-slider .carousel-inner {
+    padding: 1em;
+  }
+  .multiple-card-slider .card {
+    margin: 0 0.5em;
+    margin-top: 5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+  }
+  .multiple-card-slider .carousel-control-prev,
+  .multiple-card-slider .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .titulo-produtos{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: -1em;
+  }
+
+  .img-itens{
+    align-items: center;
+    width: 80%;
+
+  }
+
+.custom-btn {
+    border-radius: 50px;
+    transition: all 0.3s ease; 
+    color: #466B66; 
+    border-color: #466B66;
+}
+
+
+.custom-btn:hover {
+    background-color: #466B66; 
+    border-color: #466B66; 
+    color: white; 
+}
+
+/* Adicionando um efeito de foco */
+.custom-btn:focus {
+    box-shadow: 0 0 0 0.2rem #466B66; /* Efeito de foco */
+}
+
+
+  @media (min-width: 768px) {
+    .multiple-card-slider .carousel-item {
+      margin-right: 0;
+      flex: 0 0 calc(100% / 3);
+      display: block;
+      backface-visibility: visible;
+    }
+    .multiple-card-slider .carousel-inner {
+      display: flex;
+    }
+  }
+
+
+
+  .col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-produtos {
+    position: relative;
+    width: 100%;
+    height: 100%; /* Ajusta a altura para preencher a área */
+    overflow: hidden; /* Garante que partes excedentes da imagem não sejam exibidas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona a transição no hover */
+}
+
+.card-produtos img {
+    width: 100%;
+    height: 100%; /* Preenche toda a altura da div */
+    object-fit: cover; /* Ajusta a imagem para cobrir toda a área sem distorcer */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Transição para efeito de zoom e opacidade */
+}
+
+.card-produtos:hover {
+    transform: translateY(-10px); /* Faz o card "subir" ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais forte */
+}
+
+.card-produtos:hover img {
+    transform: scale(1.1); /* Aplica o zoom na imagem */
+    opacity: 0.9; /* Reduz levemente a opacidade para destacar o hover */
+}
+
+
+
+
+
+
+
+#onde-estamos{
+    background-color: #466B66;
+}
+
+.text-custom {
+    color: #f2f2f2; /* Sua cor personalizada */
+}
