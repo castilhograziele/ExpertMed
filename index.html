@@ -1410,14 +1410,16 @@
     </a>
     
 
-<!-- Popper.js (necessário para o Bootstrap 5) -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-
-<!-- Bootstrap 5.3 JS (já inclui o Bootstrap Bundle que inclui os componentes do Bootstrap com ou sem jQuery) -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <!-- AOS (Animações de rolagem) -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- Popper.js (Necessário para o Bootstrap) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
 <!-- Fancybox JS -->
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
@@ -1427,34 +1429,48 @@
     AOS.init();
 </script>
 
-<!-- Script personalizado -->
-<script src="./assets/js/main.js"></script>
+<!-- Script personalizado (se houver) -->
+<script src="./assets/main.js"></script>
 
-<!-- Código do carousel e menu para dispositivos móveis -->
+<!-- Código para o carousel -->
 <script>
-    // Inicializando o carousel, se necessário
-    document.addEventListener("DOMContentLoaded", function() {
-        // Inicialização do carousel com Bootstrap 5
-        var carousels = document.querySelectorAll('.carousel');
-        carousels.forEach(function(carousel) {
-            new bootstrap.Carousel(carousel, {
-                interval: 2000, // Exemplo de configuração
-                ride: 'carousel'
-            });
-        });
+    $(document).ready(function(){
+        $('.multiple-card-slider .carousel').each(function(){
+            var currentCarouselId = '#' + $(this).attr('id');
+            const multipleItemCarousel = document.querySelector(currentCarouselId);
 
-        // Menu de navegação (funcionalidade de toggle para dispositivos móveis)
-        var navbarToggle = document.querySelector('.navbar-toggler');
-        if (navbarToggle) {
-            navbarToggle.addEventListener('click', function () {
-                var navbarCollapse = document.querySelector('.navbar-collapse');
-                navbarCollapse.classList.toggle('show');
-            });
-        }
+            if(window.matchMedia("(min-width:576px)").matches){
+                const carousel = new bootstrap.Carousel(multipleItemCarousel, {
+                    interval: false,
+                    wrap: false
+                });
+                var carouselWidth = $(currentCarouselId + ' .carousel-inner')[0].scrollWidth;
+                var cardWidth = $(currentCarouselId + ' .carousel-item').width();
+                var scrollPosition = 0;
+
+                $(currentCarouselId + ' .carousel-control-next').on('click', function(){
+                    if(scrollPosition < (carouselWidth - (cardWidth * 4))){
+                        console.log('next');
+                        scrollPosition = scrollPosition + cardWidth;
+                        $(currentCarouselId + ' .carousel-inner').animate({scrollLeft: scrollPosition}, 600);
+                    }
+                });
+                $(currentCarouselId + ' .carousel-control-prev').on('click', function(){
+                    if(scrollPosition > 0){
+                        console.log('prev');
+                        scrollPosition = scrollPosition - cardWidth;
+                        $(currentCarouselId + ' .carousel-inner').animate({scrollLeft: scrollPosition}, 600);
+                    }
+                });
+            } else {
+                $(multipleItemCarousel).addClass('slide');
+            }
+        });
     });
 </script>
 
 </body>
+
 
 
 
