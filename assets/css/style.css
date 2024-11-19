@@ -112,13 +112,28 @@ img {
     color: white;
 }
 
-
-/* HERO */
-#hero {
-    background: linear-gradient(rgba(var(--c-brand-rgb), 0.507), rgba(var(--c-brand-rgb), 0.438)), url(../images/back-5.png);
-    background-position: center;
-    background-size: cover;
+/* Ajuste geral */
+#carouselExampleIndicators {
+    min-height: 400px;
 }
+
+#carouselExampleIndicators .carousel-inner .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Ajuste para dispositivos móveis */
+@media (max-width: 768px) {
+    #carouselExampleIndicators {
+        min-height: 350px;
+    }
+
+    #carouselExampleIndicators .carousel-inner .carousel-item img {
+        height: 350px;
+    }
+}
+
 
 
 /* SECTION TITLE */
@@ -413,9 +428,6 @@ footer .line {
     background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
   }
   
-  .logos:hover .logos-slide {
-    animation-play-state: paused;
-  }
   
   .logos-slide {
     display: inline-block;
@@ -571,9 +583,6 @@ footer .line {
     transform: scale(1.1); /* Aplica o zoom na imagem */
     opacity: 0.9; /* Reduz levemente a opacidade para destacar o hover */
 }
-
-
-
 
 
 
