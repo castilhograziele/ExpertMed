@@ -46,10 +46,10 @@
                         <a class="nav-link" href="#about">Sobre Nós</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Serviços</a>
+                        <a class="nav-link" href="#services">Produtos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Produtos</a>
+                        <a class="nav-link" href="#portfolio">Serviços</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#reviews">Clientes</a>
@@ -62,22 +62,44 @@
         </div>
     </nav>
 
-    <!-- HERO -->
-    <section id="hero" class="min-vh-100 d-flex align-items-center text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 data-aos="fade-left" class="text-uppercase text-white fw-semibold display-1">OLÁ, SOMOS A EXPERT MED</h1>
-                    <h5 class="text-white mt-3 mb-4" style="font-weight: normal; font-size: 2rem;" data-aos="fade-right">
-                        Nosso compromisso é assegurar a segurança em procedimentos cirúrgicos, oferecendo instrumentais de qualidade, esterilização eficiente e descartáveis para a sua proteção.</h5>
-                    <div data-aos="fade-up" data-aos-delay="50">
-                        <a href="#" class="btn btn-brand me-2">Fale Conosco</a>
-                        <a href="#" class="btn btn-light ms-2">Produtos</a>
-                    </div>
+    <section id="hero">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <picture>
+                        <source srcset="./assets/images/banner-1-mobile.svg" media="(max-width: 768px)">
+                        <img src="./assets/images/banner.svg" class="d-block w-100" alt="Banner 1">
+                    </picture>
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source srcset="./assets/images/banner-2-sutura.svg" media="(max-width: 768px)">
+                        <img src="./assets/images/sutura.svg" class="d-block w-100" alt="Banner 2">
+                    </picture>
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source srcset="./assets/images/banner-manutencao-mobile.svg" media="(max-width: 768px)">
+                        <img src="./assets/images/banner-manutencao.svg" class="d-block w-100" alt="Banner 3">
+                    </picture>
                 </div>
             </div>
-        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>        
     </section>
+    
 
     <section>
         <div class="logos">
@@ -161,8 +183,8 @@
     <section id="counter-encomenda" class="section-padding-encomenda">
         <div class="container text-center">
             <h2 class="text-white display-4" data-aos="fade-down" data-aos-delay="150">Encontre o que precisa</h2>
-            <p class="text-white mt-3" data-aos="fade-down" data-aos-delay="250" style="font-size: 1.5rem;">
-                Explore nossos produtos a seguir. <br> Caso não encontre o que procura, entre em contato para encomendas e orçamentos personalizados!
+            <p class="text-white mt-3" data-aos="fade-down" data-aos-delay="250" style="font-size: 2rem;">
+                Precisa de um instrumental em específico? Fale conosco e faça sua encomenda!
             </p>
         </div>
     </section>
@@ -982,48 +1004,53 @@
 
     <section id="produtos-section" class="produtos-section container mt-4">
         <div class="row">
+            <!-- Card 1 -->
             <div class="col-12 mb-3">
                 <div class="card-produtos text-center p-3">
-                    <a href="https://wa.me/5554981292495"> <!-- Coloque o link desejado aqui -->
+                    <a href="https://wa.me/5554981292495">
                         <img src="assets/images/card-epi.svg" class="card-img-top" alt="EPI'S para saúde, luvas e máscaras">
                     </a>
                 </div>
             </div>
-            
-            <div class="col-md-6 mb-3">
+    
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6 mb-3">
                 <div class="card-produtos text-center p-3">
-                    <a href="https://wa.me/5554981292495"> <!-- Coloque o link desejado aqui -->
-                        <img src="assets/images/card-compressas.png" class="card-img-top" alt="EPI'S para saúde, luvas e máscaras">
+                    <a href="https://wa.me/5554981292495">
+                        <img src="assets/images/card-compressas.png" class="card-img-top" alt="Compressas">
                     </a>
                 </div>
             </div>
-            
-            <div class="col-md-6 mb-3">
+    
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6 mb-3">
                 <div class="card-produtos text-center p-3">
-                    <a href="https://wa.me/5554981292495"> <!-- Coloque o link desejado aqui -->
-                        <img src="assets/images/card-bobina.svg" class="card-img-top" alt="EPI'S para saúde, luvas e máscaras">
+                    <a href="https://wa.me/5554981292495">
+                        <img src="assets/images/card-bobina.svg" class="card-img-top" alt="Bobinas">
                     </a>
                 </div>
             </div>
-            
-            <div class="col-md-6 mb-3">
+    
+            <!-- Card 4 -->
+            <div class="col-12 col-md-6 mb-3">
                 <div class="card-produtos text-center p-3">
-                    <a href="https://wa.me/5554981292495"> <!-- Coloque o link desejado aqui -->
-                        <img src="assets/images/card-estojo.svg" class="card-img-top" alt="EPI'S para saúde, luvas e máscaras">
+                    <a href="https://wa.me/5554981292495">
+                        <img src="assets/images/card-estojo.svg" class="card-img-top" alt="Estojos">
                     </a>
                 </div>
             </div>
-            
-            <div class="col-md-6 mb-3">
+    
+            <!-- Card 5 -->
+            <div class="col-12 col-md-6 mb-3">
                 <div class="card-produtos text-center p-3">
-                    <a href="https://wa.me/5554981292495"> <!-- Coloque o link desejado aqui -->
-                        <img src="assets/images/card-inox.svg" class="card-img-top" alt="EPI'S para saúde, luvas e máscaras">
+                    <a href="https://wa.me/5554981292495">
+                        <img src="assets/images/card-inox.svg" class="card-img-top" alt="Produtos Inox">
                     </a>
                 </div>
             </div>
         </div>
     </section>
-
+    
 
 
 
@@ -1038,7 +1065,7 @@
                     <h1 class="display-4 fw-semibold">Manutenções Realizadas</h1>
                     <div class="line"></div>
                     <p>
-                        We love to craft digital experiences for brands rather than crap and more lorem ipsums and do crazy skills
+                        Confira alguns de nossos serviços realizados!
                     </p>
                 </div>
             </div>
