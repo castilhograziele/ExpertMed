@@ -1,0 +1,155 @@
+{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "Product",
+        "name": "Porta-agulha Mayo-Hegar",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "url": "https://wa.me/5554981292495",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        },
+        "image": "assets/images/instrumentais/mayo-hegar.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!"
+      },
+      {
+        "@type": "Product",
+        "name": "Porta-agulha Crile-Wood",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "BRL",
+          "price": "45.00",
+          "url": "https://wa.me/5554981292495",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        },
+        "image": "assets/images/instrumentais/crile-wood.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!"
+      },
+      {
+        "@type": "Product",
+        "name": "Porta-agulha Mathieu",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "url": "https://wa.me/5554981292495",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        },
+        "image": "assets/images/instrumentais/mathieu.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!"
+      },
+      {
+        "@type": "Product",
+        "name": "Porta-agulha Castroviejo Com e Sem Trava",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "url": "https://wa.me/5554981292495",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        },
+        "image": "assets/images/instrumentais/castroviejo.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!"
+      },
+      {
+        "@type": "Product",
+        "name": "Porta-agulha Derf",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "url": "https://wa.me/5554981292495",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        },
+        "image": "assets/images/instrumentais/derf.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!"
+      },
+      {
+        "@type": "Product",
+        "name": "Porta-agulha Olsen-Hegar",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "url": "https://wa.me/5554981292495",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        },
+        "image": "assets/images/instrumentais/olsen-hegar.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!"
+      },
+      {
+        "@type": "Product",
+        "name": "Porta-agulha Gillies",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "url": "https://wa.me/5554981292495",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        },
+        "image": "assets/images/instrumentais/gillies.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!"
+      },
+      {
+        "@type": "Product",
+        "name": "Porta-agulha Ermold",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "url": "https://wa.me/5554981292495",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        },
+        "image": "assets/images/instrumentais/Ermold.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!"
+      },
+      {
+        "@type": "Product",
+        "name": "Porta-agulha P/Fio de Aço",
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "url": "https://wa.me/5554981292495",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        },
+        "image": "assets/images/instrumentais/fio-de-aco.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!"
+      }
+    ]
+  }
+
+  
+
+  
+  

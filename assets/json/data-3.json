@@ -1,0 +1,174 @@
+[
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Tesoura Metzembaum",
+      "image": "assets/images/tesouras/tesoura-metzembaum.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "BRL",
+        "price": "49.00",
+        "url": "https://wa.me/5554981292495",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Tesoura Mayo Stille Curva Ou Reta",
+      "image": "assets/images/tesouras/mayo-stille.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "BRL",
+        "price": "49.00",
+        "url": "https://wa.me/5554981292495",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Tesoura Iris Curva Ou Reta",
+      "image": "assets/images/tesouras/iris.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "BRL",
+        "price": "49.00",
+        "url": "https://wa.me/5554981292495",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Tesoura Spencer",
+      "image": "assets/images/tesouras/spencer.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "BRL",
+        "price": "49.00",
+        "url": "https://wa.me/5554981292495",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Tesoura Lister",
+      "image": "assets/images/tesouras/tesoura lister.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "BRL",
+        "price": "49.00",
+        "url": "https://wa.me/5554981292495",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Tesoura Potts-Smith",
+      "image": "assets/images/tesouras/potts-smith.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "BRL",
+        "price": "49.00",
+        "url": "https://wa.me/5554981292495",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Tesoura Castroviejo",
+      "image": "assets/images/tesouras/tesoura-castroviejo.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "BRL",
+        "price": "49.00",
+        "url": "https://wa.me/5554981292495",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Tesoura Goldman-Fox",
+      "image": "assets/images/tesouras/goldmann.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "BRL",
+        "price": "150.00",
+        "url": "https://wa.me/5554981292495",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Tesoura Romba-Fina",
+      "image": "assets/images/tesouras/romba-fina.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "BRL",
+        "price": "49.00",
+        "url": "https://wa.me/5554981292495",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    }
+  ]
+  

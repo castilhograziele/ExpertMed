@@ -1,0 +1,165 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "Papel Grau Cirúrgico em Rolo P/Esterilização",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "image": "assets/images/descartaveis/bobina.png",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://shopee.com.br/Bobina-Papel-Grau-Cir%C3%BArgico-Rolo-para-Embalagem-Para-Esteriliza%C3%A7%C3%A3o-i.1057923100.22292477505?sp_atk=6db2c68f-bc39-499e-8421-595fdab31bcd",
+          "priceCurrency": "BRL",
+          "price": "44.00",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "Luva Para Procedimento em Látex",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "image": "assets/images/descartaveis/latx.png",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://shopee.com.br/Luva-Descart%C3%A1vel-de-L%C3%A1tex-Com-Talco-Com-100-unidades-MEDIX-i.1057923100.23692472837",
+          "priceCurrency": "BRL",
+          "price": "33.90",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "Ataduras de Crepom pct/12nd",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "image": "assets/images/descartaveis/atadura.png",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://shopee.com.br/Atadura-Crepe-13-Fios-10cmX1-80m-Soft-(Com-12)-i.1057923100.21499028848?sp_atk=f18b00c4-9a97-4e39-9eec-89e12c505a8d",
+          "priceCurrency": "BRL",
+          "price": "7.00",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "Luva Nitrílica Preta",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "image": "assets/images/descartaveis/nitrilo-preta.png",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://shopee.com.br/Luva-Descart%C3%A1vel-Nitr%C3%ADlica-Sem-P%C3%B3-Preta-C-100Un-Medix-i.1057923100.19797622004",
+          "priceCurrency": "BRL",
+          "price": "35.00",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "Luva Nitrílica Azul",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "image": "assets/images/descartaveis/nitrilo-azul.png",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://shopee.com.br/Luva-Descart%C3%A1vel-Nitr%C3%ADlica-Sem-Talco-Azul-CX-C-100-unidades-Medix-i.1057923100.23097029206?sp_atk=3f776286-a429-4abe-8dda-8d265879f94c",
+          "priceCurrency": "BRL",
+          "price": "33.90",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "Luva Nitrílica Rosa",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "image": "assets/images/descartaveis/nitrilo-rosa.png",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://shopee.com.br/Luva-Descart%C3%A1vel-Rosa-Nitr%C3%ADlica-Sem-Talco-Com-100-unidades-Medix-i.1057923100.21198985342?sp_atk=78c44e3f-c378-421c-b46f-21cb4fce3511",
+          "priceCurrency": "BRL",
+          "price": "36.00",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "Máscara Tripla Cx/50und",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "image": "assets/images/descartaveis/mascara.png",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://shopee.com.br/Mascara-Descart%C3%A1vel-Com-El%C3%A1stico-Tripla-Branca-50-Unidades-Anadona-i.1057923100.18699008105?sp_atk=fc477add-dc62-41c6-948f-affd99014be0",
+          "priceCurrency": "BRL",
+          "price": "13.70",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "Touca Pct/100und",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "image": "assets/images/descartaveis/touca.png",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://shopee.com.br/Touca-Descart%C3%A1vel-Sanfonada-Soft-Branca-Com-100un-i.1057923100.19297431454?sp_atk=257d610e-99d8-4233-8edb-d03253727ca8",
+          "priceCurrency": "BRL",
+          "price": "14.90",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "Fita Microporosa Branca",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "image": "assets/images/descartaveis/fita.png",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://shopee.com.br/Fita-Cirurgica-Microporosa-Branca-i.1057923100.18697421672?sp_atk=f5b6b5e8-8c9c-48ad-812e-bb0258ea814a",
+          "priceCurrency": "BRL",
+          "price": "10.00",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      }
+      
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Afastador Farabeuf",
+        "image": "assets/images/afastadores/farabeuf.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "sku": "AFAR001",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://wa.me/5554981292495",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Afastador Volkmann",
+        "image": "assets/images/afastadores/volkmann.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "sku": "AFVO001",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://wa.me/5554981292495",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Afastador Hohmann",
+        "image": "assets/images/afastadores/hohmann.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "sku": "AFHO001",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://wa.me/5554981292495",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Afastador Balfour",
+        "image": "assets/images/afastadores/balfour.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "sku": "AFBA001",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://wa.me/5554981292495",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Afastador Gosset",
+        "image": "assets/images/afastadores/gosset.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "sku": "AFGO001",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://wa.me/5554981292495",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Afastador Finochietto",
+        "image": "assets/images/afastadores/finochieto.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "sku": "AFFI001",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://wa.me/5554981292495",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Afastador Richardson",
+        "image": "assets/images/afastadores/richardson.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "sku": "AFRI001",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://wa.me/5554981292495",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Afastador Gelpi",
+        "image": "assets/images/afastadores/gelpi.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "sku": "AFGE001",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://wa.me/5554981292495",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Afastador Senn-Muller",
+        "image": "assets/images/afastadores/muller.png",
+        "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+        "sku": "AFSM001",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://wa.me/5554981292495",
+          "priceCurrency": "BRL",
+          "price": "49.00",
+          "priceValidUntil": "2024-12-31",
+          "seller": {
+            "@type": "Organization",
+            "name": "Expert Med"
+          }
+        }
+      }
+      
+
+
+]

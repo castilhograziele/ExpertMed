@@ -1,0 +1,183 @@
+[
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Pinça Anatômica de Dissecção",
+      "image": "assets/images/pincas/pinca-anatomica.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://wa.me/5554981292495",
+        "priceCurrency": "BRL",
+        "price": "22.50",
+        "priceValidUntil": "2024-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Pinça Anatômica Dente de Rato",
+      "image": "assets/images/pincas/dente-de-rato.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://wa.me/5554981292495",
+        "priceCurrency": "BRL",
+        "price": "22.76",
+        "priceValidUntil": "2024-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Pinça Crile",
+      "image": "assets/images/pincas/crile.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://wa.me/5554981292495",
+        "priceCurrency": "BRL",
+        "price": "49.00",
+        "priceValidUntil": "2024-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Pinça Kelly",
+      "image": "assets/images/pincas/kelly.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://wa.me/5554981292495",
+        "priceCurrency": "BRL",
+        "price": "48.26",
+        "priceValidUntil": "2024-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Pinça Halstead Mosquito",
+      "image": "assets/images/pincas/mosquito.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://wa.me/5554981292495",
+        "priceCurrency": "BRL",
+        "price": "100.00",
+        "priceValidUntil": "2024-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Pinça Adson Com Ou Sem Dente",
+      "image": "assets/images/pincas/adson.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://wa.me/5554981292495",
+        "priceCurrency": "BRL",
+        "price": "20.40",
+        "priceValidUntil": "2024-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Pinça Backaus",
+      "image": "assets/images/pincas/backhaus.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://wa.me/5554981292495",
+        "priceCurrency": "BRL",
+        "price": "49.00",
+        "priceValidUntil": "2024-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Pinça Kocher",
+      "image": "assets/images/pincas/kocher.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://wa.me/5554981292495",
+        "priceCurrency": "BRL",
+        "price": "56.50",
+        "priceValidUntil": "2024-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Pinça Allis",
+      "image": "assets/images/pincas/allis.png",
+      "description": "Confira os tamanhos disponíveis ou faça sua encomenda entrando em contato conosco!",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://wa.me/5554981292495",
+        "priceCurrency": "BRL",
+        "price": "62.00",
+        "priceValidUntil": "2024-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Expert Med"
+        }
+      }
+    }
+  ]
+  
