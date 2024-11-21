@@ -225,18 +225,24 @@ img {
     z-index: 3; /* Coloca a imagem acima do fundo verde */
 }
 
-
-/* COUNTER */
-#counter-encomenda {
-    background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(../images/encomenda.png);
-    background-position: center;
-    background-size: cover;
-}
-
+/* Remove margens e padding da seção */
 .section-padding-encomenda {
-    padding-top: 30px; /* Reduzido */
-    padding-bottom: 30px; /* Reduzido */
+    margin: 0;
+    padding: 0;
+    margin-bottom: -10%;
 }
+
+/* Ajusta o padding para telas menores */
+@media (max-width: 768px) {
+    .section-padding-encomenda {
+        margin: 0;
+        padding: 0; 
+        margin-bottom: -30%;
+        padding-top: -10%;
+    }
+}
+
+
 
 
 
