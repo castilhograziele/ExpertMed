@@ -1,7 +1,7 @@
-/* FONTS */
+/* FONTE */
 @import url(../css/clash-display.css);
 
-/* VARIABLES */
+/* VARIAVEIS */
 :root {
     --c-dark: #212529;
     --c-brand: #466B66;
@@ -13,7 +13,7 @@
     --transition: all 0.5s ease;
 }
 
-/* RESET & HELPERS */
+/* RESET */
 body {
     font-family: var(--font-base);
     line-height: 1.7;
@@ -50,10 +50,8 @@ img {
     box-shadow: var(--box-shadow);
 }
 
-/* IMAGE ZOOM */
 .image-zoom {
     position: relative;
-    /* overflow: hidden; */
 }
 
 .image-zoom-wrapper {
@@ -85,7 +83,7 @@ img {
 }
 
 .navbar-logo {
-    max-width: 200px;  /* Ajuste a largura conforme necessário */
+    max-width: 200px;  /* Ajuste a largura */
     height: auto;
 }
 
@@ -122,6 +120,8 @@ img {
     width: 100%;
     height: 100%;
 }
+
+
 
 /* Ajuste para dispositivos móveis */
 @media (max-width: 768px) {
@@ -412,6 +412,7 @@ footer .line {
     background: white;
     white-space: nowrap;
     position: relative;
+    margin-bottom: 30px;
   }
   
   .logos:before,
@@ -446,48 +447,34 @@ footer .line {
   }
 
 
-  .whatsapp-icon,
-  .shopee-icon {
-      position: fixed;
-      bottom: 20px; /* Espaço inicial do canto inferior */
-      right: 20px; /* Alinhado ao canto inferior direito */
-      width: 200px;
-      height: 200px;
-      z-index: 1000;
-      cursor: pointer;
-      transition: transform 0.3s ease, opacity 0.3s ease; /* Efeito ao passar o mouse */
-  }
+.whatsapp-icon {
+    position: fixed;
+    bottom: -80px; 
+    right: 20px;
+    width: 200px;
+    height: 200px;
+    z-index: 1000;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
   
-  /* Ajuste do espaçamento para aproximação */
-  .whatsapp-icon {
-      bottom: -20px; /* Ícone mais próximo do canto inferior */
-  }
-  
-  .shopee-icon {
-      bottom: -80px; /* Ajuste para posicionar acima do WhatsApp */
-  }
+
   
   /* Responsividade */
   @media (max-width: 768px) {
-      .whatsapp-icon,
-      .shopee-icon {
-          width: 150px; /* Reduzido para tamanhos menores */
+      .whatsapp-icon{
+          width: 150px; 
           height: 150px;
-          right: 10px; /* Ajustado para dispositivos menores */
+          right: 10px; 
       }
   
-      .whatsapp-icon {
-          bottom: -10px; /* Proximidade ajustada */
-      }
-  
-      .shopee-icon {
-          bottom: -70px; /* Mantém espaço entre os ícones */
-      }
+
   }
   
   /* Efeito ao passar o mouse */
-  .whatsapp-icon:hover,
-  .shopee-icon:hover {
+  .whatsapp-icon:hover{
       transform: scale(1.2); /* Aumenta levemente o tamanho */
       opacity: 0.8; /* Reduz a opacidade para dar destaque */
   }
@@ -539,7 +526,6 @@ footer .line {
     color: white; 
 }
 
-/* Adicionando um efeito de foco */
 .custom-btn:focus {
     box-shadow: 0 0 0 0.2rem #466B66; /* Efeito de foco */
 }
@@ -598,5 +584,5 @@ footer .line {
 }
 
 .text-custom {
-    color: #f2f2f2; /* Sua cor personalizada */
+    color: #f2f2f2; 
 }
